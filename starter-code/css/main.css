@@ -4,7 +4,6 @@ main{
 
 .page{
     padding:0.5rem 3rem;
-    background: red;
 }
     
 
@@ -12,10 +11,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1110px;
     height: 58px;
+    width: 1110px;
     margin:0 auto;
-    background: blue;
     margin-bottom: 2rem;
 }
 
@@ -27,7 +25,6 @@ background-color: #E8EFF2;
 border-radius: 8px;
 border: transparent;
 font-weight: 900;
-
 }
 
 button:hover{
@@ -97,7 +94,6 @@ height:58px;
 .hero{
     display: flex;
     align-items: center;
-   background: aqua;
    width: 1110px;
    margin: 0 auto;
 
@@ -105,8 +101,154 @@ height:58px;
 .img-container{
     width:540px;
     height: 480px;
+    background-color: #D8D8D8;
 }
 .image{
     width: 100%;
     height: 100%;
+
 }
+
+.m-footer{
+    width: 1110px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    /* overflow: hidden;m */
+
+}
+
+
+
+.image-left{
+   background-image: url(../../starter-code/assets/desktop/image-phone-and-keyboard.jpg);
+   background-color: #f26818;
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 255px;
+    height: 480px;
+    border-radius: 1rem;
+
+    }
+
+    .image-right{
+        background-image:url(../assets/desktop/image-glass-and-keyboard.jpg);
+        width: 445px;
+        height: 480px;
+    background-size: cover;
+    border-radius: 1rem;
+   
+  
+       
+    
+    }
+    .img-text{
+        width: 255px;
+height: 265px;
+
+    }
+
+
+
+      .mech-text h2 {
+        text-align: left;
+        margin-left: 2.4375rem;
+        margin-bottom: 0;
+        position: absolute;
+width: 255px;
+height: 108px;
+left: 1020px;
+top: 818px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+text-transform: uppercase;
+color: #162542;
+
+
+      }
+
+      .mech-text p {
+        text-align: left;
+        align-self: center;
+        margin-bottom: 0;
+        position: absolute;
+width: 255px;
+height: 130px;
+left: 1020px;
+top: 953px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+      }
+
+      .features{
+        width: 1110px;
+        margin:0 auto;
+        display: flex;
+        margin-top: 4rem;
+        justify-content: space-around;
+      
+      }
+
+      .icon-container{
+        background: #F16718;
+        width: 65px;
+height: 65px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+
+      }
+
+     .icon-1{
+        width: 17.68px;
+        height: 27.86px;
+     }
+
+     .feature-text-title{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        text-transform: uppercase;
+         color: #162542;
+        text-align: left;
+        width: 100px;
+     }
+
+     .feature-text{
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+width: 200px;
+     }
+
+     .footer h4 {
+width: 272px;
+height: 26px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+color: #7B8BAD;
+       text-align: center;
+       background-color: pink;
+      }
+      
+      
+  
+
